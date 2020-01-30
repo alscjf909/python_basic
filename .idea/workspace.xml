@@ -78,9 +78,25 @@
       <option name="presentableId" value="Default" />
       <updated>1579765037014</updated>
     </task>
+    <task id="LOCAL-00001" summary="앙기모띠">
+      <created>1580299745370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580299745370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="앙기모띠" />
+    <option name="LAST_COMMIT_MESSAGE" value="앙기모띠" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="418" y="26" key="CommitChangelistDialog2" timestamp="1580299744351">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="418" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1580299744351" />
     <state width="1364" height="208" key="GridCell.Tab.0.bottom" timestamp="1580293521402">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -101,6 +117,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1580293908187" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1580299926747">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1580299926747" />
     <state x="465" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1579765059956">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
