@@ -34,7 +34,7 @@ def getContours(img): # 윤곽띠
     x,y,w,h=0,0,0,0
     for cnt in contours:
         area = cv2.contourArea(cnt)
-        if area>10000:
+        if area>15000: # area 높여서 다른 바탕이 못잡게 해버리자!
             #cv2.drawContours(imgResult,cnt,-1,(255,0,0),3)
             peri = cv2.arcLength(cnt, True) #호 길이 보여줌
             approx = cv2.approxPolyDP(cnt, 0.02*peri, True) #호의 길이를 측정하기 위해 찍힌 점)
@@ -49,7 +49,7 @@ while True:
     success, img=cap.read()
     imgResult = img.copy()
     newPoints = findColor(img,myColors,myColorValues)
-    if len(newPoints)!=0:
+    if len(newPoints)!=0: #new point가 존재하는지 안하는지 파악 안하면 error남
         for newP in newPoints:
             myPoints.append(newP)
     if len(myPoints)!=0:
